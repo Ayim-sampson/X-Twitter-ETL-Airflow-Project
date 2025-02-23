@@ -2,6 +2,10 @@
 
 A simple ETL (Extract, Transform, Load) project that automates data collection from **Elon Musk's X (formerly known as Twitter)** page, processes the data, and stores it as a CSV file in an **Amazon S3** bucket using Python scripts and **Apache Airflow**.
 
+## 🛠️ **Architectural Design**
+![X(Twitter)](https://github.com/user-attachments/assets/1f11f5c7-b9c2-4d59-93ac-77feffff6835)
+
+
 ## ✨ **Features**
 - **Data Extraction:** Fetches tweets from Elon Musk's X page using the **Tweepy** library.
 - **Data Transformation:** Cleans and structures the extracted data for meaningful analysis.
