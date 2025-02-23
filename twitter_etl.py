@@ -5,7 +5,6 @@ from datetime import datetime
 import s3fs 
  
 # Authenticate using Twitter API v2 credentials
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAHXlygEAAAAAp%2BP2g44Qvl%2FzmPMjqwZvmcWEZmA%3D7xYExJ3sC94i2e7w2baZ3jf04rpfN9OUgmfgWyt36Z1D9Bp90I"
 
 # Twitter authentication
 auth = tweepy.OAuthHandler(access_key, access_secret)
